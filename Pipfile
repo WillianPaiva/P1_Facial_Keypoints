@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "==3.2.0.6"
+matplotlib = "==2.1.1"
+pandas = "==0.22.0"
+numpy = "==1.12.1"
+scipy = "==1.0.0"
+Pillow = "==5.0.0"
+"72aec7c" = {file = "http://download.pytorch.org/whl/cu91/torch-0.4.0-cp36-cp36m-linux_x86_64.whl"}
+scikit-learn = "*"
+jupyter = "*"
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
